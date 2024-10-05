@@ -638,3 +638,7 @@ a.btn {
 .imgOfGallery {
   height: 275px;
 }
+.collpaseColor {
+  color: #0bc3d8f7 !important;
+  /* background-color: #0bc3d8d1; */
+}

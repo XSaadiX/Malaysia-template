@@ -642,3 +642,14 @@ a.btn {
   color: #0bc3d8f7 !important;
   /* background-color: #0bc3d8d1; */
 }
+.readMoreBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0bc3d8;
+  height: 40px;
+}

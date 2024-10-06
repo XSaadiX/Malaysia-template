@@ -653,3 +653,72 @@ a.btn {
   background-color: #0bc3d8;
   height: 40px;
 }
+@media (max-width: 768px) {
+  .owl-carousel-item h1 img.webp {
+    max-width: 80%; /* Scale down the image to fit smaller screens */
+    height: auto;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .header-carousel .position-absolute {
+    align-items: flex-start !important; /* Align content to the top to avoid overlap */
+    padding-top: 20px; /* Add some padding from the top for better visibility */
+  }
+
+  .text-center {
+    text-align: center !important; /* Ensure all content centers properly */
+  }
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .align-items-md-start {
+    align-items: flex-start !important;
+  }
+}
+@media (max-width: 768px) {
+  .owl-carousel-item .container {
+    padding-top: 60px; /* Adds spacing at the top */
+  }
+}
+@media (max-width: 768px) {
+  .owl-carousel-item .container {
+    padding-top: 80px; /* Add more padding to move content away from the top */
+    text-align: center; /* Center content for a balanced look */
+  }
+
+  .btn.btn-primary {
+    margin-top: 20px; /* Add margin to push the button down slightly */
+  }
+
+  .header-carousel .position-absolute {
+    padding-top: 50px; /* Creates space from the top to avoid overlapping */
+    align-items: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .webp {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px; /* Adds space above the image */
+  }
+}
+@media (max-width: 768px) {
+  .owl-carousel-item .container {
+    padding-bottom: 60px; /* Adds extra space below the container content */
+  }
+
+  .btn.btn-primary {
+    margin-top: 200px; /* Pushes the button further down from the image */
+  }
+}
